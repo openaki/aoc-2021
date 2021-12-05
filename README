@@ -1,0 +1,7 @@
+Advent of Code 2021
+
+Solutions in nim.
+
+Most of them can be run at the top level.
+
+nim c -r day01.nim
