@@ -7,7 +7,6 @@ proc solve_a(numbers: seq[int]) : int =
     for i in 1..<numbers.len:
         if (numbers[i] > numbers[i-1]):
             count += 1
-    
     return count
 
 proc main() =
