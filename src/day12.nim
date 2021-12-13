@@ -55,14 +55,7 @@ proc solve_a(input: string, smallAllowed = 1): int =
 proc solve_b(input: string, smallAllowed = 1): int = 
     let graph = createAdjList(input)
     var seen = initTable[string, int]()
-    var path : seq[string]
-    var pathC = 0
     return dfs("start", graph, seen, true)
-    #let smalls = graph.keys().filterIt(not it.canRepeat())
-    #for k in graph.keys:
-    #    if k == "start" or k == "end": continue
-    #    if k.canRepeat(): continue 
-    #    pathC += dfs("start", graph, seen, path, k)
 
 let sample = """
 start-A
