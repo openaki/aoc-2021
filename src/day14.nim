@@ -69,10 +69,6 @@ CC -> N
 CN -> C
 """
 
-discard """
-NCNBCHB
-NBCCNBBBCBHCB
-"""
 echo solve_a(sample, 10)
 echo solve_a(sample, 40)
 let input = readFile("./inputs/input14.txt").strip
